@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "SetSync",
+    "slug": "setsync",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "setsync",
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.noahjonesx.setsync"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.noahjonesx.setsync"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static"
+    },
+    "plugins": ["expo-router"],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
